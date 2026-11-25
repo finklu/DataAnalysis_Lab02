@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Virtual environments & env files
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# Open-Meteo / requests-cache files
+.cache/
+.cache.sqlite*
+*.sqlite
+*.sqlite3
+
+# Testing, linting & type-checking caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDEs, editors & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
